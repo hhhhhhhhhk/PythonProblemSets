@@ -1,4 +1,5 @@
-# PythonProblemSets
+# PythonProblemSets  
+**Some introductory python programming questions**
 
 ## Question 1 Emirp 回文质数  
 An emirp (prime spelled backward) is a nonpalindromic prime number whose reversal is also a prime.  
@@ -25,7 +26,7 @@ Given a list of integers, build a class of binary tree (each node has at least t
 You are supposed to define classes of Node and BinaryTree.   
 Node should contain properties of value, left and right children.  
 BinaryTree must have functions as following,  
-*__init__: initialize the class;  
+*_init_: initialize the class;  
 insert: take integer as input. Starting from root node, place input to left side of existing node ifinput smaller than node value, and place it to right if larger than node value until an empty node found;  
 search: take an integer as input, return node whose value equals to input, return None if no matched case;  
 delete: take no input, delete all values in binary tree.  
